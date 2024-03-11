@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: #565a5f;
+}
+
+section {
+    display: flex;
+    height: 100%;
+
+}
+
+footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: #26282B;
+}
+
+/* HEADER */
+
+.headerWrapper {
+    background-color: #73787e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    margin-bottom: 48px;
+}
+
+.headerWrapper>h2 {
+    font-size: 48px;
+    padding: 12px;
+    color: aliceblue;
+}
+
+.headerWrapper>button {
+    padding: 12px;
+    width: 10vw;
+    color: aliceblue;
+    background-color: #87ade9;
+    border: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headerWrapper>button:hover {
+    background-color: #5F85DB;
+}
+
+/* CONTATTO */
+.contactsContainer {
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    max-height: fit-content;
+    justify-content: center;
+    
+
+}
+
+.contactWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #26282B;
+    background-color: aliceblue;
+    width: 60vw;
+    height: 20vh;
+    margin-bottom: 24px;
+}
+
+.contactWrapper:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.contactWrapperInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0px 0px 12px;
+}
+.contactWrapperInfoLeft {
+    display: flex;
+    align-items: center;
+    margin: 12px 0px 0px 12px;
+}
+
+.contactWrapperInfoLeft>img {
+    border-radius: 50%;
+    
+}
+
+.contactWrapperInfoLeft>h4 {
+    color: #565a5f;
+    font-size: 32px;
+    margin-left: 6px;
+
+
+}
+
+.contactWrapperInfo>p {
+    color: #565a5f;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 24px;
+
+}
+
+.contactWrapperOptions {
+    display: flex;
+    justify-content: end;
+    margin-right: 12px;
+}
+
+.contactWrapperOptions>button {
+    color: aliceblue;
+    background-color: #87ade9;
+    font-size: 16px;
+    border: 0px;
+    padding: 12px;
+    width: 10vw;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.contactWrapperOptions>button:hover {
+    background-color: #5F85DB;
+}
+
+#btn-deleteContact:hover{
+    background-color: #c74141;
+}
+
+#btn-callContact:hover{
+    background-color: #72c741;
+}
+
+/* AGGIUNGI CONTATTO */
+
+.addNameWrapperContainer {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.addNameWrapper {
+    display: flex;
+    position: sticky;
+    top: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: aliceblue;
+    width: 25vw;
+    height: 30vh;
+    margin: 0px 0px 10vh 6px;
+    padding: 20px;
+
+}
+
+.addNameWrapper>button {
+    color: aliceblue;
+    background-color: #87ade9;
+    font-size: 16px;
+    border: 0px;
+    padding: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.addNameWrapper>button:hover {
+    background-color: #5F85DB;
+}
+
+.addNameWrapper>input {
+    border: 0px;
+    padding: 12px
+}
+
+.addNameWrapper>label {
+    cursor: text;
+    font-weight: bold;
+    font-size: 20px;
+    color: #565a5f;
+    border: 0px;
+    padding: 0px 6px;
+    margin: 12px 0px 6px 0px;
+
+}
